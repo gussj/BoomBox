@@ -52,7 +52,7 @@
           "modifyvm",
           "{{.Name}}",
           "--cpus",
-          "1"
+          "2"
         ],
 		    [
           "modifyvm",
