@@ -14,7 +14,9 @@
       "iso_url": "{{user `iso_url`}}",
       "iso_checksum_type": "{{user `iso_checksum_type`}}",
       "iso_checksum": "{{user `iso_checksum`}}",
-      "headless": false,
+      "headless": true,
+      "ssh_username":"vagrant",
+      "ssh_password":"vagrant",
       "boot_wait": "6m",
       "boot_command": "",
       "winrm_username": "vagrant",
@@ -44,13 +46,13 @@
           "modifyvm",
           "{{.Name}}",
           "--memory",
-          "2048"
+          "4096"
         ],
         [
           "modifyvm",
           "{{.Name}}",
           "--cpus",
-          "2"
+          "1"
         ]
       ]
     }
