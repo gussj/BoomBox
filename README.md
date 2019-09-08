@@ -15,7 +15,7 @@ BoomBox is designed for malware analysts and incident responders. It allows for 
     *   **NOTE:** Microsoft Office has not been included due to licensing. If you have a license key, you can install Office and take a new clean base snapshot.
 
 SPECIAL UPDATE:
-* This will work with headless mode for Ubuntu Server
+* ####**This will work with headless mode for Ubuntu Server
 
 
 ## Requirements
