@@ -53,6 +53,12 @@
           "{{.Name}}",
           "--cpus",
           "1"
+        ],
+		    [
+          "modifyvm",
+          "{{.Name}}",
+          "--vrdeaddress",
+          "0.0.0.0"
         ]
       ]
     }
