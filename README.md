@@ -14,9 +14,9 @@ BoomBox is designed for malware analysts and incident responders. It allows for 
 *   Chocolatey package manager for Windows used to install Adobe Reader, Flash, Chrome, and Firefox.
     *   **NOTE:** Microsoft Office has not been included due to licensing. If you have a license key, you can install Office and take a new clean base snapshot.
 
-SPECIAL UPDATE:
-* ####**This will work with headless mode for Ubuntu Server
-
+### SPECIAL UPDATE:
+#### This will work with headless mode for Ubuntu Server
+***
 
 ## Requirements
 *   20GB+ of free disk space
