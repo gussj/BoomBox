@@ -65,6 +65,18 @@
           "{{.Name}}",
           "--vram",
           "32"
+        ],
+	[
+          "modifyvm",
+          "{{.Name}}",
+          "--vrde-port",
+          "3395"
+        ],
+	[
+          "modifyvm",
+          "{{.Name}}",
+          "--vrde",
+          "true"
         ]
       ]
     }
